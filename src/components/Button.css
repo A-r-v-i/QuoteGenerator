@@ -1,0 +1,34 @@
+
+
+#quote-button {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#new-quote {
+    font-size: 18px;
+    border-radius: 25px;
+    background: rgb(90, 255, 24);
+    cursor: pointer;
+    padding: 15px 32px;
+}
+
+#tweet-quote {
+    font-size: 18px;
+    border-radius: 25px;
+    background: royalblue;
+    cursor: pointer;
+    margin-left: 300px;
+    padding: 15px 32px;
+
+}
+
+#new-quote:hover {
+    background-color: rgba(79, 214, 255, 0.678);
+}
+
+#tweet-quote:hover {
+    background-color: rgba(114, 255, 95, 0.678);    
+}
